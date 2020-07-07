@@ -1,0 +1,32 @@
+:host {
+  display: block;
+  background-color: black;
+}
+
+.navbar {
+  margin: 0 25px;
+}
+
+.navbar-brand {
+  color: #67ebf5;
+  font-weight: 500;
+  font-family: "Permanent Marker", cursive;
+}
+
+.navbar-brand:visited {
+  color: #e246f5;
+}
+
+.nav-link {
+  color: rgb(231, 225, 225) !important;
+}
+
+button {
+  background-color: #f2f2f2;
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-brand {
+    font-size: 2rem;
+  }
+}
